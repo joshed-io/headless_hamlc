@@ -1,7 +1,7 @@
-%h1 I'm text from Ruby Haml!
+#ruby-haml
+  %h1 I'm text from Ruby Haml!
 
-#haml-coffee-hook
+#haml-coffee
 
 :javascript
-  document.getElementById("haml-coffee-hook").innerHTML =
-    JST["templates/home/show"]();
+  (new Application.Home.ShowView()).render()
