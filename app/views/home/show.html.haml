@@ -1,1 +1,7 @@
 %h1 I'm text from Ruby Haml!
+
+#haml-coffee-hook
+
+:javascript
+  document.getElementById("haml-coffee-hook").innerHTML =
+    JST["templates/home/show"]();
