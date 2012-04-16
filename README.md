@@ -1,14 +1,10 @@
 ### headless_hamlc
 
-`headless_hamlc` is a simple Rails 3.2.3 template application to help you get [jasmine-headless-webkit](https://github.com/johnbintz/jasmine-headless-webkit) working with [haml_coffee_assets](https://github.com/netzpirat/haml_coffee_assets).
+headless_hamlc is a simple Rails 3.2.3 template application that shows [jasmine-headless-webkit](https://github.com/johnbintz/jasmine-headless-webkit) working with [haml_coffee_assets](https://github.com/netzpirat/haml_coffee_assets).
 
 I've been happily using these gems together for a while now. I'm publishing all the tricks you need to get it working right here.
 
 ### Diving in
-
-I don't have a lot of documentation for this - other than the code and commit messages.
-
-So clone it and take a look!
 
     git clone git://github.com/dzello/headless_hamlc.git
 
