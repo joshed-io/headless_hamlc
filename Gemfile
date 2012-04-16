@@ -2,6 +2,9 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.3'
 
+# avoid octal escape sequence error
+gem 'coffee-script-source', '1.2.0'
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
@@ -13,7 +16,7 @@ gem 'jasmine'
 gem 'jasmine-rails'
 
 gem 'haml_coffee_assets', :git => 'git://github.com/dzello/haml_coffee_assets.git'
-gem 'jasmine-headless-webkit', :git => 'git://github.com/dzello/jasmine-headless-webkit.git'
+gem 'jasmine-headless-webkit', :git => 'git://github.com/johnbintz/jasmine-headless-webkit.git'
 
 gem 'rspec-rails'
 
