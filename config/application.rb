@@ -55,5 +55,10 @@ module HeadlessHamlc
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
+    # after the haml coffee rails engine runs
+    config.after_initialize do
+      require File.expand_path("../initializers/haml_coffee_assets.rb", __FILE__)
+    end
   end
 end
