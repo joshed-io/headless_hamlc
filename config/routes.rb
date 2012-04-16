@@ -1,4 +1,11 @@
 HeadlessHamlc::Application.routes.draw do
+
+  root to: "home#show"
+
+  if Rails.env.development? || Rails.env.test?
+    mount JasmineRails::Engine => "/specs"
+  end
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
