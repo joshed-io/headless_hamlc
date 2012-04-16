@@ -15,6 +15,8 @@ gem 'jasmine-rails'
 gem 'haml_coffee_assets', :git => 'git://github.com/dzello/haml_coffee_assets.git'
 gem 'jasmine-headless-webkit', :git => 'git://github.com/dzello/jasmine-headless-webkit.git'
 
+gem 'rspec-rails'
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
