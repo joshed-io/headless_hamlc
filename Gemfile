@@ -7,7 +7,10 @@ gem 'rails', '3.2.3'
 
 gem 'sqlite3'
 
+gem 'haml-rails'
+
 gem 'jasmine'
+gem 'jasmine-rails'
 
 gem 'haml_coffee_assets', :git => 'git://github.com/dzello/haml_coffee_assets.git'
 gem 'jasmine-headless-webkit', :git => 'git://github.com/dzello/jasmine-headless-webkit.git'
