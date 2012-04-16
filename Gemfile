@@ -7,6 +7,10 @@ gem 'rails', '3.2.3'
 
 gem 'sqlite3'
 
+gem 'jasmine'
+
+gem 'haml_coffee_assets', :git => 'git://github.com/dzello/haml_coffee_assets.git'
+gem 'jasmine-headless-webkit', :git => 'git://github.com/dzello/jasmine-headless-webkit.git'
 
 # Gems used only for assets and not required
 # in production environments by default.
